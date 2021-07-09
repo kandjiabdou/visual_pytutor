@@ -2,6 +2,8 @@
 The goal of this jupyter extension is to make it easy to view on pythontutor the code of each cell of a jupyter notebook.
 The jupyter software is used for teaching the basics of programming to IT departments (Module M1102 and M1103) and STID. In these modules, we also use the pythontutor site for step-by-step visualization of code execution.
 
+![Image description](icon-description.png)
+
 ### Installation
 Install and activate visual pytutor on your Jupyter server.
 
@@ -15,7 +17,7 @@ jupyter nbextension enable visual_pytutor/main
 ```
 
 ### Examples
-See [README.ipynb](README.ipynb) for the guide and examples.
+See [EXAMPLE](https://gitlab.sorbonne-paris-nord.fr/11928898/visual_pytutor/-/tree/master/Exemple) for the guide and examples.
 
 ### Demo
 Test on [Binder](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.sorbonne-paris-nord.fr%2F11928898%2Fvisual_pytutor/demo).

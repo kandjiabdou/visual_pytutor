@@ -1,4 +1,0 @@
-pip install jupyter_nbextensions_configurator
-jupyter nbextensions_configurator enable --user
-jupyter nbextension install .
-jupyter nbextension enable ./main

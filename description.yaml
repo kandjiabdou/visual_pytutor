@@ -6,15 +6,15 @@ Main: main.js
 Link: README.md
 Description: The goal of this jupyter extension is to make it easy to view on pythontutor the code of each cell of a jupyter notebook. The jupyter software is used for teaching the basics of programming to IT departments (Module M1102 and M1103) and STID. In these modules, we also use the pythontutor site for step-by-step visualization of code execution.
 Parameters:
-- name: main.add_btn_toobar
-  description: Displays the button "Python Totor" in the toolbar menu
+- name: params.add_btn_toobar
+  description: Displays the button "Python Tutor" in the toolbar menu.
   input_type: checkbox
   default: true
-- name: main.add_btn_cell
-  description: Allows to display the button of a cell
+- name: params.add_btn_cell
+  description: Add a button for visualizing the code for all the code cells for which no metadata visalization is specified (in the metadata of the cell or the notebook).
   input_type: checkbox
   default: true
-- name: main.add_btn_create_select_cell
-  description: Add a default button when creating or changing the type of a cell
-  input_type: checkbox
-  default: true
+- name: params.server_url
+  description: Choose the server on which the code is viewed, by default we use online python tutor. If you have pytutor locally, enter the value 'http://localhost:8003/'.
+  input_type: texte
+  default: http://pythontutor.com/
