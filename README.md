@@ -1,6 +1,6 @@
 ## Read the documentatoin
 [![Read the Docs](https://img.shields.io/readthedocs/pip)](https://github.com/kandjiabdou/visual_pytutor/wiki)
-# Python Tutor Visualization
+# Visual Python Tutor
 The goal of this jupyter extension is to make it easy to view on pythontutor the code of each cell of a jupyter notebook.
 The jupyter software is used for teaching the basics of programming to IT departments (Module M1102 and M1103) and STID. In these modules, we also use the pythontutor site for step-by-step visualization of code execution.
 
