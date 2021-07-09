@@ -1,3 +1,5 @@
+## Read the documentatoin
+[![Read the Docs](https://img.shields.io/readthedocs/pip)](https://github.com/kandjiabdou/visual_pytutor/wiki)
 # Python Tutor Visualization
 The goal of this jupyter extension is to make it easy to view on pythontutor the code of each cell of a jupyter notebook.
 The jupyter software is used for teaching the basics of programming to IT departments (Module M1102 and M1103) and STID. In these modules, we also use the pythontutor site for step-by-step visualization of code execution.
@@ -11,16 +13,13 @@ Go to the jupyter nbextensions directory.
 
 Example of path "C:/Users/\[username]/anaconda3/share/jupyter/nbextensions"
 ```
-git clone https://gitlab.sorbonne-paris-nord.fr/11928898/visual_pytutor.git
+git clone https://github.com/kandjiabdou/visual_pytutor.git
 jupyter nbextension install visual_pytutor
 jupyter nbextension enable visual_pytutor/main
 ```
 
 ### Examples
-See [EXAMPLE](https://gitlab.sorbonne-paris-nord.fr/11928898/visual_pytutor/-/tree/master/Exemple) for the guide and examples.
-
-### Demo
-Test on [Binder](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.sorbonne-paris-nord.fr%2F11928898%2Fvisual_pytutor/demo).
+See [EXAMPLE](https://github.com/kandjiabdou/visual_pytutor/tree/master/Exemple) for the guide and examples.
 
 ### Installation Jupyter Nbextensions Configurator
 For those using conda, you can now get jupyter_nbextensions_configurator from the excellent conda-forge channel in a single command:
